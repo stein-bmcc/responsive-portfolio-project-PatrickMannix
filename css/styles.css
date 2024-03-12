@@ -140,3 +140,25 @@ See for more info: https://codepen.io/profstein/pen/mrMLRj
     YOUR STYLES
     Add your styles below.
     ========================== */
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    .grid-item {
+        background-color: white;
+        padding: 10px;
+        border: 1px solid #ccc;
+    }
+    .social {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+}
+html{
+  background-color: Grey;
+}
+img {
+max-width: 20%;
+height: auto;
+}
