@@ -158,7 +158,12 @@ See for more info: https://codepen.io/profstein/pen/mrMLRj
 html{
   background-color: Grey;
 }
-img {
+img{
 max-width: 20%;
 height: auto;
+}
+
+.class{
+    background-color: bisque;
+    border-color: black;
 }
